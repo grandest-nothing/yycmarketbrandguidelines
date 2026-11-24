@@ -19,8 +19,8 @@ section{padding:5rem 2rem;max-width:1100px;margin:auto}
 #colour .grid{grid-template-columns:repeat(3,1fr)}
 .demo{background:#fff;border-radius:20px;padding:2.5rem 2rem}
 .demo small{display:block;margin:0 0 .6rem;font-size:.9rem}
-.demo .h1{font:700 3rem/1.1 var(--display);color:var(--plum);margin:0 0 2rem}
-.demo .h2{font:700 1.75rem/1.2 var(--display);color:var(--forest);margin:0 0 2rem}
+.demo .h1{font:700 3rem/1 var(--display);color:var(--plum);margin:-.55rem 0 2.2rem}
+.demo .h2{font:700 1.75rem/1 var(--display);color:var(--forest);margin:-.4rem 0 2.2rem}
 .demo p{font-family:var(--body);margin:0}
 .ring{width:130px;height:130px;border-radius:50%;border:24px solid var(--plum);border-right-color:transparent}
 .stripes{height:130px;border-radius:12px;background:repeating-linear-gradient(-28deg,var(--lime) 0 14px,var(--cream) 14px 28px)}
