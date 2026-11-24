@@ -4,4 +4,5 @@
 .hero-art{position:absolute;z-index:2;right:-10.5vw;top:calc(50% - var(--w) * .1808 - var(--w) * .2395 + 1px);width:var(--w);pointer-events:none}
 .hero-art img{display:block;width:100%;height:auto}
 .hero-art .cover{position:absolute;left:77.8%;top:55%;width:40%;height:5.1%;background:#4C2749}
+.thanks .disc img{transform:translateY(-5%)}
 @media(max-width:760px){.hero{display:block;min-height:0;padding:0 0 2rem}.hero .band{height:auto;margin:3rem 0 0 5vw;padding:2rem 1.5rem}.hero .band h1{max-width:none;font-size:2.4rem}.hero-art{position:relative;right:auto;top:auto;width:90vw;aspect-ratio:1 / .84;overflow:hidden;margin:2rem auto 0}.hero-art .cover{display:none}}
