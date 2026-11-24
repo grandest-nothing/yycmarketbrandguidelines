@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif+Display:wght@700&display=swap');
+:root{--plum:#4C2749;--lime:#BCD378;--cream:#F7F4EA;--orchid:#AA45AD;--forest:#333821;--charcoal:#333}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font:16px/1.6 'Noto Sans',sans-serif;color:var(--charcoal);background:var(--cream)}
+h1,h2,h3{font-family:'Noto Serif Display',serif;margin:0 0 .4em}
+h1{font-size:clamp(2.6rem,6vw,4.5rem);color:var(--cream)}h2{font-size:2.2rem;color:var(--plum)}h3{font-size:1.4rem;color:var(--forest)}
+nav{position:sticky;top:0;display:flex;gap:1.2rem;align-items:center;padding:.7rem 2rem;background:var(--plum);overflow-x:auto}
+nav img{height:34px}nav a{color:var(--cream);text-decoration:none;font-size:.85rem;font-weight:700;white-space:nowrap}nav a:hover{color:var(--lime)}
+section{padding:5rem 2rem;max-width:1100px;margin:auto}
+.eyebrow{color:var(--orchid);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.8rem}
+.hero{max-width:none;background:var(--lime);display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;min-height:80vh;padding:4rem 8vw}
+.hero h1{background:var(--plum);display:inline-block;padding:.1em .3em}
+.disc{background:var(--cream);border-radius:50%;aspect-ratio:1;display:grid;place-items:center}.disc img{width:80%}
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:#fff;border-radius:16px;padding:1.2rem}.card img{width:100%}
+.chip{border-radius:16px;padding:1.2rem;min-height:160px;display:flex;flex-direction:column;justify-content:flex-end;font-size:.9rem}
+.demo{background:#fff;border-radius:20px;padding:2rem}.demo .h1{font:700 3rem 'Noto Serif Display';color:var(--plum)}.demo .h2{font:700 1.75rem 'Noto Serif Display';color:var(--forest)}
+.ring{width:130px;height:130px;border-radius:50%;border:24px solid var(--plum);border-right-color:transparent}
+.stripes{height:130px;border-radius:12px;background:repeating-linear-gradient(-28deg,var(--lime) 0 14px,var(--cream) 14px 28px)}
+.dots{height:130px;border-radius:12px;background:radial-gradient(var(--plum) 5px,transparent 6px) 0 0/28px 28px,var(--lime)}
+.photo{aspect-ratio:4/3;border-radius:12px;display:grid;place-items:center;color:var(--cream);font-weight:700}
+.thanks{max-width:none;background:var(--plum);color:var(--cream);text-align:center}.thanks h2{color:var(--cream);font-size:4rem}.thanks .disc{width:260px;margin:0 auto 2rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr}}
